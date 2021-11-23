@@ -4,9 +4,10 @@
   "description": "iNotebook - Your notebook on the cloud",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev":"nodemon index"
   },
-  "author": "",
+  "author": "v3-toucans-team-03",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
